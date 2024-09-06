@@ -24,7 +24,8 @@ int main(){
     while(!WindowShouldClose()){
         BeginDrawing();
 
-        ClearBackground(PINK);
+        DrawRectangle(50,50,100,50,WHITE);
+        ClearBackground(BLACK);
 
 
         EndDrawing();
