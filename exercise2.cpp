@@ -23,7 +23,7 @@ int main(){
         if(y+rectHeight >= 600  || y+rectHeight <=0 || y >=600 || y <=0){
             ySpeed*=-1;
         }
-        x+=xSpeed;
+        x+=xSpeed; 
         y+=ySpeed;
         DrawRectangle(x, y, rectWidth, rectHeight, PINK);
         ClearBackground(BLACK);
